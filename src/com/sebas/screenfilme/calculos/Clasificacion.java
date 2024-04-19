@@ -1,7 +1,6 @@
 package com.sebas.screenfilme.calculos;
 
-public class Clasificacion {
+public interface Clasificacion {
 
-
-
+    int getClasificacion();
 }

@@ -1,4 +1,6 @@
 import com.sebas.screenfilme.calculos.CalculadoraDeTiempo;
+import com.sebas.screenfilme.calculos.FiltroRecomendaciones;
+import com.sebas.screenfilme.modelos.Episodio;
 import com.sebas.screenfilme.modelos.Pelicula;
 import com.sebas.screenfilme.modelos.Serie;
 
@@ -48,9 +50,15 @@ public class Principal {
         calculadora.incluye(otraPelicula);
         System.out.println("El tiempo total para ver todo nuestro catalogo es: " + calculadora.getTiempoTotal());
 
+        FiltroRecomendaciones filtroRecomendaciones = new FiltroRecomendaciones();
+        filtroRecomendaciones.filtra(miPelicula);
 
-
-
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setNombre("La casa del dragon");
+        episodio.setSerie(houseOfDragon);
+        episodio.setTotalVisualizaciones(98);
+        filtroRecomendaciones.filtra(episodio);
 
 
     }
