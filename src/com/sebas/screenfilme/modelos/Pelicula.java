@@ -1,6 +1,7 @@
 package com.sebas.screenfilme.modelos;
+import com.sebas.screenfilme.calculos.Clasificacion;
 
-public class Pelicula extends Titulo{
+public class Pelicula extends Titulo, Clasificacion {
 
  private String director;
 
