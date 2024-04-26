@@ -1,3 +1,5 @@
+package com.sebas.screenfilme.principal;
+
 import com.sebas.screenfilme.calculos.CalculadoraDeTiempo;
 import com.sebas.screenfilme.calculos.FiltroRecomendaciones;
 import com.sebas.screenfilme.modelos.Episodio;
