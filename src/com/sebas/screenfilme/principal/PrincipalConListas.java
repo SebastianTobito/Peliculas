@@ -6,6 +6,7 @@ import com.sebas.screenfilme.modelos.Titulo;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class PrincipalConListas {
     public static void main(String[] args) {
@@ -35,11 +36,14 @@ public class PrincipalConListas {
         listaDeArtistas.add("Leonardo Di Caprio");
         listaDeArtistas.add("Emma Watson");
         listaDeArtistas.add("Tom Hardy");
-        System.out.println("Lista de artistas no ordenada" + listaDeArtistas);
+        System.out.println("Lista de artistas no ordenada: " + listaDeArtistas);
         Collections.sort(listaDeArtistas);
-        System.out.println("Lista de artistas ordenada"+listaDeArtistas);
+        System.out.println("Lista de artistas ordenada: "+listaDeArtistas);
         Collections.sort(lista);
-        System.out.println("Lista de titulos ordenada"+ lista);
+        System.out.println("Lista de titulos ordenada: "+ lista);
+
+        lista.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento));
+        System.out.println("Lista de titulos ordenada por fecha: "+lista);
 
     }
 }
