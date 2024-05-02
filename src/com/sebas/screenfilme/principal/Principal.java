@@ -11,30 +11,30 @@ import java.util.ArrayList;
 public class Principal {
     public static void main(String[] args) {
 
-    Pelicula miPelicula = new Pelicula("Encanto",2021);
-    miPelicula.setDuracionEnMinutos(120);
+        Pelicula miPelicula = new Pelicula("Encanto",2021);
+        miPelicula.setDuracionEnMinutos(120);
 
-    miPelicula.muestraFichaTecnica();
+        miPelicula.muestraFichaTecnica();
 
         System.out.println("\n*********************");
         System.out.println(miPelicula.getNombre());
         System.out.println("*********************\n");
 
 
-    miPelicula.evalua(8.1);
-    miPelicula.evalua(7.9);
-    miPelicula.evalua(9.2);
+        miPelicula.evalua(8.1);
+        miPelicula.evalua(7.9);
+        miPelicula.evalua(9.2);
 
         System.out.println(miPelicula.getTotalDeEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
 
-    Serie houseOfDragon = new Serie("La casa del dragón",2022);
-    houseOfDragon.setTemporadas(2);
-    houseOfDragon.setMinutosPorEpisodio(50);
-    houseOfDragon.setEpisodiosPorTemporada(10);
+        Serie houseOfDragon = new Serie("La casa del dragón",2022);
+        houseOfDragon.setTemporadas(2);
+        houseOfDragon.setMinutosPorEpisodio(50);
+        houseOfDragon.setEpisodiosPorTemporada(10);
 
-    Pelicula otraPelicula = new Pelicula("Soy leyenda",2006);
-    otraPelicula.setDuracionEnMinutos(110);
+        Pelicula otraPelicula = new Pelicula("Soy leyenda",2006);
+        otraPelicula.setDuracionEnMinutos(110);
 
         System.out.println("\n***************");
         houseOfDragon.muestraFichaTecnica();

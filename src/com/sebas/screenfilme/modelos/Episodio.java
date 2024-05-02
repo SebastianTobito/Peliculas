@@ -42,10 +42,10 @@ public class Episodio implements Clasificacion {
 
     @Override
     public int getClasificacion() {
-       if(totalVisualizaciones>100){
-           return 4;
-       }else{
-           return 2;
-       }
+        if(totalVisualizaciones>100){
+            return 4;
+        }else{
+            return 2;
+        }
     }
 }

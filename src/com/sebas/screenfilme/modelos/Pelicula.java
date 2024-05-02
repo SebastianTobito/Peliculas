@@ -3,7 +3,7 @@ import com.sebas.screenfilme.calculos.Clasificacion;
 
 public class Pelicula extends Titulo implements Clasificacion {
 
- private String director;
+    private String director;
 
 
     public Pelicula(String nombre, int fechaDeLanzamiento) {
