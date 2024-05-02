@@ -4,9 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import com.sebas.screenfilme.exception.ErrorEnConversionDuracionException;
 
 public class Titulo implements Comparable<Titulo> {
-    @SerializedName("Title")
     private String nombre;
-    @SerializedName("Year")
     private int fechaDeLanzamiento;
     private int duracionEnMinutos;
     private boolean incluidaEnElPlan;
@@ -85,8 +83,8 @@ public class Titulo implements Comparable<Titulo> {
 
     @Override
     public String toString() {
-        return "nombre: '" + nombre + '\'' +
+        return "(nombre: '" + nombre +
                 ", fechaDeLanzamiento: " + fechaDeLanzamiento+
-                ", duracion: " + duracionEnMinutos;
+                ", duracion: " + duracionEnMinutos+") ";
     }
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "Nombre": "It",
+    "FechaDeLanzamiento": 2017,
+    "DuracionEnMinutos": 135,
+    "IncluidaEnElPlan": false,
+    "SumaDePuntajes": 0.0,
+    "TotalDeEvaluaciones": 0
+  },
+  {
+    "Nombre": "Encanto",
+    "FechaDeLanzamiento": 2021,
+    "DuracionEnMinutos": 102,
+    "IncluidaEnElPlan": false,
+    "SumaDePuntajes": 0.0,
+    "TotalDeEvaluaciones": 0
+  },
+  {
+    "Nombre": "The Avengers",
+    "FechaDeLanzamiento": 2012,
+    "DuracionEnMinutos": 143,
+    "IncluidaEnElPlan": false,
+    "SumaDePuntajes": 0.0,
+    "TotalDeEvaluaciones": 0
+  }
+]
